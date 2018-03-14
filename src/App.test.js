@@ -7,6 +7,14 @@ import { initialState } from './reducers/';
 
 it('App renders without crashing', () => {
   const mockFunction = jest.fn();
-  const component = shallow(<App state={initialState} submitTodo={mockFunction} todos={[]} />);
+  const component = shallow(
+    <App
+      state={initialState}
+      submitTodo={mockFunction}
+      todos={[]}
+      deleteTodo={mockFunction}
+      undoDelete={mockFunction}
+    />,
+  );
   expect(component.exists()).toEqual(true);
 });
