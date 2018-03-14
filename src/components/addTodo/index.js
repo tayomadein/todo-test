@@ -19,11 +19,11 @@ const AddTodo = ({ submitTodo, undoDelete }) => {
           }}
         />
 
-        <button type="submit" className="todo-submit">
+        <button type="submit" className="btn todo-submit">
           Add Todo
         </button>
 
-        <button className="undo-delete" onClick={() => undoDelete()}>
+        <button className="btn undo-delete" onClick={() => undoDelete()}>
           Undo Delete
         </button>
       </form>

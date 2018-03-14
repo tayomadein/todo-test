@@ -26,3 +26,48 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+/* Todo Styles */
+
+ul {
+  list-style-type:none;
+  text-align: center;
+}
+
+li {
+  display:inline-block;
+}
+
+.btn {
+  border-radius: 20px;
+  text-align: center;
+  display: inline-block;
+  width: 150px;
+  height: 30px;
+  line-height: 30px;
+  border: 1px solid #4e4e4e;
+}
+
+.todo-input {
+  margin-right: 10px;
+  width: 150px;
+  height: 30px;
+  border-radius: 20px;
+  text-align: center;
+  border: 1px solid #4e4e4e;
+  line-height: 30px;
+  padding: 0px;
+}
+
+.todo-submit {
+  margin-right: 10px;
+}
+
+.todo-delete {
+  margin-right: 12px;
+  margin-bottom: 8px;
+  border: 1px solid #4e4e4e;
+  border-radius: 20px;
+  font-weight: bold;
+  text-align: center;  
+}
